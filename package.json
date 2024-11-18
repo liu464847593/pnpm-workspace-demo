@@ -1,6 +1,7 @@
 {
   "name": "pnpm-workspace-demo",
   "private": true,
+  "preinstall": "npx only-allow pnpm",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
