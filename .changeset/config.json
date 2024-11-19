@@ -3,7 +3,7 @@
   "changelog": false,
   "commit": false,
   "fixed": [],
-  "linked": [["@pnpm-workspace-demo/test","@pnpm-workspace-demo/utils"]],
+  "linked": [],
   "access": "public",
   "baseBranch": "master",
   "updateInternalDependencies": "minor",
