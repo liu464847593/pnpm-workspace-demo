@@ -10,10 +10,14 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "pnpm --filter=@pnpm-workspace-demo/* run build",
     "preview": "vite preview",
     "build:utils": "pnpm run -C packages/utils build",
-    "build:components": "pnpm run -C packages/components build"
+    "build:components": "pnpm run -C packages/components build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "clean": "pnpm run clean:dist && pnpm run -r --parallel clean",
+    "clean:dist": "rimraf dist"
   },
   "dependencies": {
     "@pnpm-workspace-demo/components": "workspace:^1.0.0",
@@ -22,7 +26,9 @@
     "vue": "^3.5.12"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.9",
     "@vitejs/plugin-vue": "^5.1.4",
+    "rimraf": "^6.0.1",
     "vite": "^5.4.10"
   }
 }
