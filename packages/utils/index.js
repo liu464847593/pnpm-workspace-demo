@@ -29,7 +29,7 @@ const debounce = (fn, ms = 0) => {
   };
 };
 
-export {
+export default {
   throttle,
   debounce
 }

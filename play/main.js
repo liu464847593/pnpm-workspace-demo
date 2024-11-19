@@ -5,8 +5,8 @@ import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
 
 
-import CsSelect from '../packages/components/select';
+import DemoComponents from '@pnpm-workspace-demo/components'
 const app = createApp(App)
 app.use(ElementPlus)
-app.use(CsSelect)
+app.use(DemoComponents)
 app.mount('#app')

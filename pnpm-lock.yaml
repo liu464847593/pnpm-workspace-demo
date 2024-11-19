@@ -4,11 +4,15 @@ importers:
 
   .:
     specifiers:
+      '@pnpm-workspace-demo/components': workspace:^1.0.0
+      '@pnpm-workspace-demo/utils': workspace:^1.0.0
       '@vitejs/plugin-vue': ^5.1.4
       element-plus: ^2.8.8
       vite: ^5.4.10
       vue: ^3.5.12
     dependencies:
+      '@pnpm-workspace-demo/components': link:packages/components
+      '@pnpm-workspace-demo/utils': link:packages/utils
       element-plus: 2.8.8_vue@3.5.13
       vue: 3.5.13
     devDependencies:
