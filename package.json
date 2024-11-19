@@ -8,6 +8,9 @@
     "node": ">= 18",
     "pnpm": ">=7"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "dev": "vite",
     "build": "pnpm --filter=@pnpm-workspace-demo/* run build",
@@ -20,8 +23,8 @@
     "clean:dist": "rimraf dist"
   },
   "dependencies": {
-    "@pnpm-workspace-demo/components": "workspace:^1.0.0",
-    "@pnpm-workspace-demo/utils": "workspace:^1.0.0",
+    "@l-org/pnpm-workspace-demo-components": "workspace:^1.0.0",
+    "@l-org/pnpm-workspace-demo-utils": "workspace:^1.0.0",
     "element-plus": "^2.8.8",
     "vue": "^3.5.12"
   },

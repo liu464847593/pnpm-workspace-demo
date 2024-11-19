@@ -1,5 +1,5 @@
 {
-  "name": "@pnpm-workspace-demo/utils",
+  "name": "@l-org/pnpm-workspace-demo-utils",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
