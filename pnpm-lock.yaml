@@ -23,6 +23,18 @@ importers:
       rimraf: 6.0.1
       vite: 5.4.11
 
+  packages/components:
+    specifiers: {}
+
+  packages/test:
+    specifiers:
+      '@pnpm-workspace-demo/utils': workspace:^1.4.0
+    dependencies:
+      '@pnpm-workspace-demo/utils': link:../utils
+
+  packages/utils:
+    specifiers: {}
+
 packages:
 
   /@babel/helper-string-parser/7.25.9:

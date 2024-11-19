@@ -3,9 +3,9 @@
   "changelog": false,
   "commit": false,
   "fixed": [],
-  "linked": [],
-  "access": "restricted",
+  "linked": [["@pnpm-workspace-demo/test","@pnpm-workspace-demo/utils"]],
+  "access": "public",
   "baseBranch": "master",
-  "updateInternalDependencies": "patch",
+  "updateInternalDependencies": "minor",
   "ignore": []
 }
