@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@pnpm-workspace-demo/utils": "workspace:^1.4.0"
+    "@pnpm-workspace-demo/utils": "workspace:*"
   }
 }

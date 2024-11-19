@@ -28,7 +28,7 @@ importers:
 
   packages/test:
     specifiers:
-      '@pnpm-workspace-demo/utils': workspace:^1.4.0
+      '@pnpm-workspace-demo/utils': workspace:*
     dependencies:
       '@pnpm-workspace-demo/utils': link:../utils
 
