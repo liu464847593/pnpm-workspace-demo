@@ -4,8 +4,7 @@
 ### 示例：
 <script setup>
 import {ref} from 'vue';
-import DemoComponents from '@l-org/pnpm-workspace-demo-components';
-const {CsSelect} = DemoComponents;
+import {CsSelect} from '@l-org/pnpm-workspace-demo-components';
 let selectValue = ref(1);
 const options = [
   {
