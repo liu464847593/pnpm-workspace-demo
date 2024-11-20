@@ -1,8 +1,4 @@
-import CsSelect from './select'
-
-const components = {
-  CsSelect
-}
+import * as components from './components';
 
 const install = function(Vue) {
   if (install.installed) return;
@@ -10,9 +6,9 @@ const install = function(Vue) {
     Vue.component(components[key].name, components[key]);
   });
 };
-
 const API = {
   install,
-  ...components
 }
 export default API;
+export * from './components';
+
