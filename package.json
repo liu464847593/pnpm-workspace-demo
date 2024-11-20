@@ -20,7 +20,10 @@
     "changeset": "changeset",
     "changeset:version": "changeset version",
     "clean": "pnpm run clean:dist && pnpm run -r --parallel clean",
-    "clean:dist": "rimraf dist"
+    "clean:dist": "rimraf dist",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
     "@l-org/pnpm-workspace-demo-components": "workspace:^1.0.0",
@@ -32,6 +35,7 @@
     "@changesets/cli": "^2.27.9",
     "@vitejs/plugin-vue": "^5.1.4",
     "rimraf": "^6.0.1",
-    "vite": "^5.4.10"
+    "vite": "^5.4.10",
+    "vitepress": "^1.5.0"
   }
 }
