@@ -13,7 +13,7 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "pnpm --filter=@pnpm-workspace-demo/* run build",
+    "build": "pnpm --filter=@l-org/* run build",
     "preview": "vite preview",
     "build:utils": "pnpm run -C packages/utils build",
     "build:components": "pnpm run -C packages/components build",

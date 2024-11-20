@@ -20,6 +20,7 @@ const options = [
 <template>
   <div>
     <cs-select v-model="selectValue" :options="options" style="width: 200px"></cs-select>
+    <cs-button/>
   </div>
 </template>
 
