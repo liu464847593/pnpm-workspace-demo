@@ -15,6 +15,7 @@ async function makeList(dirPath, list) {
 makeList('./', list);
 export default defineConfig({
   build: {
+    cssCodeSplit:true, // 自定义build需要手动设置cssCodeSplit:true分离css
     lib:{
       entry: list,
       name: 'components',
